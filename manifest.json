@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Task tracker",
+    "name": "Site Blocker",
     "version": "1.0",
-    "description": "Task tracker",
+    "description": "Blocks sites to encourage productivity",
     "browser_action": {
         "default_popup": "popup.html"
     }
