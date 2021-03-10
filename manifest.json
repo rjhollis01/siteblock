@@ -5,5 +5,13 @@
     "description": "Blocks sites to encourage productivity",
     "browser_action": {
         "default_popup": "popup.html"
-    }
+    },
+    "permissions": [
+        "tabs","storage"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent":false
+    },
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
 }
